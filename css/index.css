@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    display: flex;
+    height: auto;
+    margin: 0;
+    justify-content: center;
+}
+
+.contenedor {
+    flex: 1;
+    border: solid 4px black;
+    height: auto;
+    text-align: center;
+}
+
+.boton{
+    background-color:cadetblue;
+    color: white;
+    border-radius: 8px;
+}
+
+#contenedor_tabla{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#imagen{
+    width: 50%;
+    height: 50%;
+}
+
+#contenedor_tabla{
+    width: 90%;
+}

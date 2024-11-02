@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API NASA</title>
+    <style>
+        @import url(../css/index.css);
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Mars Rover Photos</h2>
+        <div id="header">
+            <h4>Earth Date: </h4>
+            <input type="date" id="date" value="2015-07-02">
+            <button class="boton" id="boton_buscar" onclick="find()">Find</button>
+        </div>
+        <div id="contenedor_tabla">
+
+        </div>
+    
+        <div>
+            <button onclick="previous()">Previous</button>
+            <button onclick="next()">Next</button>
+        </div>
+    </div>
+    <div class="contenedor", id="contenedor_img">
+
+        <h2>Photo Detail</h2>
+        <img id="imagen">
+        <h4 id="id"></h4>
+        <h4 id="martian_sol"></h4>
+        <h4 id="earth_date"></h4>
+
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>
