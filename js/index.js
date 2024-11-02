@@ -41,6 +41,11 @@ function find(){
         })
         .then((data)=>{
             const photos = data.photos;
+            
+            imagen.src = photos[0].img_src;
+            id_img.innerText = "Id: " + photos[0].id;
+            martian_sol.innerText = "Martian sol: " + photos[0].sol;
+            earth_date.innerText = "Earth date: " + photos[0].earth_date;
 
             photos.forEach(photo => {
                 let fila = document.createElement('tr');
